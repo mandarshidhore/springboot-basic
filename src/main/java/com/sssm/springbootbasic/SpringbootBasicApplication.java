@@ -19,5 +19,6 @@ public class SpringbootBasicApplication {
 		// 3. Performs class path scan.
 		ProgressTracker pt = context.getBean(ProgressTracker.class);
 		pt.showProgress();
+		// after this line executes, this application will terminate because it is not a web-app (see pom.xml).
 	}
 }
