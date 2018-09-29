@@ -1,2 +1,2 @@
 # springboot-basic
-spring boot + mvc + h2 + rest
+basic spring boot app(no web)
