@@ -1,2 +1,2 @@
 # springboot-basic
-basic spring boot app(no web)
+spring boot basic app(no web)
