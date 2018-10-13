@@ -8,7 +8,9 @@ public class ProgressTracker {
 	private String onerepmax;
 	
 	public ProgressTracker() {
-		System.out.println("==== ProgressTracker instantiated ====");
+		System.out.println("======================================");
+		System.out.println("==   ProgressTracker instantiated   ==");
+		System.out.println("======================================");
 	}
 
 	public String getExercise() {
