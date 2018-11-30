@@ -6,7 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import com.sssm.springbootbasic.model.ProgressTracker;
 
-// @SpringBootApplication indicates application stating point to Spring container.
+// @SpringBootApplication indicates application starting point to Spring container.
 @SpringBootApplication
 public class SpringbootBasicApplication {
 
