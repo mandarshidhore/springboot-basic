@@ -17,7 +17,7 @@ public class SpringbootBasicApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(SpringbootBasicApplication.class, args);
 		// SpringApplication.run(...) does following things -
 		// 1. Sets up default configuration.
-		// 2. Starts Spring application context.
+		// 2. Loads Spring application context.
 		// 3. Performs class path scan.
 		ProgressTracker tracker = context.getBean(ProgressTracker.class);
 		tracker.showProgress();
